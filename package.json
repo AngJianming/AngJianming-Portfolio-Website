@@ -1,0 +1,38 @@
+{
+  "name": "angjianming-portfolio-website",
+  "version": "1.0.0",
+  "description": "Ang Jianming's Professional Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngJianming/AngJianming-Portfolio-Website.git"
+  },
+  "keywords": [],
+  "author": "Ang Jianming",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AngJianming/AngJianming-Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/AngJianming/AngJianming-Portfolio-Website#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^3.11.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "framer-motion": "^12.4.10",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-next": "^15.2.1",
+    "prettier": "^3.5.3"
+  }
+}
